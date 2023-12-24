@@ -1,0 +1,98 @@
+html,
+body {
+  position: absolute;
+  left: 1%;
+  right: 1%;
+  top: 1%;
+  bottom: 1%;
+  margin: 1%;
+  padding: 1;
+
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #000000;
+}
+body {
+  background: rgb(245, 253, 255);
+  font-family: sans-serif;
+}
+form {
+  width: 47vw;
+  background: white;
+  margin: 10vh auto;
+  padding: 40px;
+  border-radius: 1px;
+}
+
+#button {
+  position: absolute;
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+#footnote {
+  position: absolute;
+
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+#button {
+  position: absolute;
+background-color: aquamarine;
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 8px;
+}
+
+/* Responsive styles for small screens */
+@media screen and (max-width: 600px) {
+  td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  #p1 {
+    display: none;
+  }
+
+  #alternativeText {
+    display: block;
+  }
+}
+
+/* Style for large screens */
+@media screen and (min-width: 601px) {
+  #alternativeText {
+    display: none;
+  }
+}
